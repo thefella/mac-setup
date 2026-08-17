@@ -66,7 +66,7 @@ edit_brewfile () {
 
 install_apps () {
   echo -en "\n💾  ${HEADING_COLOR}Installing listed apps${RESET}\n"
-  brew bundle --global --file $BREWFILE_LOCATION
+  brew bundle --file $BREWFILE_LOCATION
 }
 
 

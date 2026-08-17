@@ -33,7 +33,7 @@ cask "1password"
 cask "alfred"
 cask "appcleaner"
 cask "bettertouchtool"
-cask "TheBoredTeam/boring-notch/boring-notch"
+cask "TheBoredTeam/boring-notch/boring-notch", trusted: true
 cask "do-not-disturb"
 cask "fuse-t"
 cask "keka"
